@@ -2,7 +2,7 @@ clc
 close all
 clear all
 
-% This script matches tabular data (register data) with DICOM images through the personal number of each patient (available in the DICOM header)
+% This script matches tabular data (register data) with DICOM images through the personal number of each patient (available in the DICOM header or as the name of each directory)
 
 % Open register data with personal numbers
 registerdata = readtable('registerdata.csv');
